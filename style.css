@@ -1,0 +1,527 @@
+@media screen and (min-device-width: 560px) and (max-device-width: 913px) {
+  * {
+    line-height: 3vh;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3vh;
+    font-weight: 400;
+    font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", "Roboto",
+      "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol",
+      "Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota",
+      "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI",
+      "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya",
+      "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le",
+      "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text",
+      "Cambria Math";
+  }
+  body {
+    background: linear-gradient(
+        to top left,
+        white,
+        rgba(255, 153, 150, 0),
+        rgb(238, 220, 211)
+      ),
+      linear-gradient(
+          to top right,
+          rgb(169, 211, 230),
+          rgba(255, 153, 150, 0),
+          #c2efdc
+        )
+        rgb(232, 230, 199);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .headlogo {
+    height: 2vh;
+    width: auto;
+    background-size: cover;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-weight: 600;
+  }
+  .flex-container {
+    margin: 30vh 33vw 1.5vh 22vw;
+    padding: 4vh;
+    height: 20vh;
+    width: 45vw;
+    box-shadow: 0px 0px 3px 1px #c3c3c3;
+  }
+  .h:hover {
+    text-decoration: underline;
+    color: #464646;
+  }
+  .question {
+    padding-top: 0vh;
+    height: 1.2vh;
+    width: 1.2vw;
+    align-items: center;
+    align-content: center;
+  }
+  input {
+    line-height: 2.5 !important;
+    outline: none;
+    width: 100%;
+    padding: 5px 0px 4px 0px;
+    margin: 6px 0;
+    font-size: 1.5vh !important;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #464646;
+  }
+  input:hover {
+    border-bottom: 1.5px solid black;
+  }
+  a {
+    text-decoration: none;
+    color: #0067b8;
+  }
+  div,
+  a,
+  input,
+  li,
+  ul,
+  b,
+  img {
+    background-color: white !important;
+  }
+  button {
+    border-radius: 1px;
+    background-color: #0067b8;
+    border: none;
+    color: white;
+    /* margin-bottom: 0vh; */
+    padding: 0.1vh 3vw;
+    text-align: center;
+    font-size: 16px;
+  }
+  .key {
+    width: 1vw;
+    height: 2vh;
+  }
+  hr {
+    background-color: rgb(0, 115, 254);
+  }
+  #sec {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+  }
+  .btn:hover {
+    background-color: rgb(0, 72, 207);
+    cursor: pointer;
+    opacity: 1.2;
+  }
+  .footer {
+    font-size: 12px !important;
+    padding-right: 1vw;
+    position: absolute;
+    align-items: center;
+    bottom: 1vh;
+    float: right;
+    right: 1vh;
+  }
+  .flex-container1 {
+    display: flex;
+    width: 47vw;
+    padding-left: 4vw;
+    height: auto;
+    list-style: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 5px 1px #c3c3c3;
+    margin: 1vh 25vw 1.5vh 22vw;
+    font-weight: 500;
+    font-size: 15px !important;
+  }
+  .u:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #sec:hover {
+    opacity: 0.7;
+  }
+
+  .key {
+    height: 40px;
+    width: 40px;
+    padding-top: 4px;
+  }
+  .btn {
+    /* margin-top:1vh; */
+    line-height: 2;
+    position: relative;
+    float: right;
+    right: 0%;
+  }
+  .heading {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .question:hover,
+  .h:hover {
+    cursor: pointer;
+  }
+  #sec:hover {
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 559px) {
+  * {
+    margin: 0;
+    padding: 0px;
+    font-size: 1.7vh;
+    font-weight: 400;
+    font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", "Roboto",
+      "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol",
+      "Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota",
+      "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI",
+      "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya",
+      "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le",
+      "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text",
+      "Cambria Math";
+  }
+  .headlogo {
+    height: 26px;
+    width: auto;
+    background-size: cover;
+  }
+  .h {
+    font-size: 1.vh;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+  }
+  .flex-container {
+    padding-top: 4vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    line-height: 4vh;
+    height: 45vh;
+    width: 90vw;
+  }
+  .h:hover {
+    text-decoration: underline;
+    color: #464646;
+  }
+  .question {
+    padding-top: 15px;
+    height: 15px;
+    width: 15px;
+    align-self: center;
+  }
+  input {
+    line-height: 2.5 !important;
+    outline: none;
+    width: 100%;
+    padding: 5px 0px 4px 0px;
+    margin: 6px 0;
+    font-size: 15px !important;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #464646;
+  }
+  input:hover {
+    border-bottom: 1.5px solid black;
+  }
+  a {
+    text-decoration: none;
+    color: #0067b8;
+  }
+  button {
+    border-radius: 1px;
+    background-color: #0067b8;
+    border: none;
+    color: white;
+    margin-bottom: 1vh;
+    padding: 3px 37px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .key {
+    width: 35px;
+    height: 35px;
+  }
+  hr {
+    background-color: rgb(0, 115, 254);
+  }
+  .btn:hover {
+    background-color: rgb(0, 72, 207);
+    cursor: pointer;
+    opacity: 1.2;
+  }
+  .footer {
+    padding: 0 !important;
+    font-size: 12px !important;
+    position: absolute;
+    bottom: 1vh;
+    left: 5vh;
+  }
+  .flex-container1 {
+    margin-top: 0%;
+    padding-top: 0;
+    margin-left: 14vw;
+    padding-left: 5vw;
+    margin-right: 5vw;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    list-style: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 0px 1px #c3c3c3;
+    font-weight: 500;
+  }
+  .u:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #sec:hover {
+    opacity: 0.7;
+  }
+
+  .key {
+    height: 40px;
+    width: 40px;
+    padding-top: 4px;
+  }
+  .btn {
+    margin-top: 1.5vh;
+    /* line-height: 1.5; */
+    position: relative;
+    float: right;
+    right: 0%;
+  }
+  .heading {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .question:hover,
+  .h:hover {
+    cursor: pointer;
+  }
+  #sec:hover {
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 914px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8vh;
+    font-weight: 400;
+    line-height: 4vh;
+    font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", "Roboto",
+      "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol",
+      "Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota",
+      "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI",
+      "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya",
+      "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le",
+      "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text",
+      "Cambria Math";
+  }
+  body {
+    background: linear-gradient(
+        to top left,
+        white,
+        rgba(255, 153, 150, 0),
+        rgb(238, 220, 211)
+      ),
+      linear-gradient(
+          to top right,
+          rgb(169, 211, 230),
+          rgba(255, 153, 150, 0),
+          #c2efdc
+        )
+        rgb(232, 230, 199);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .h {
+    font-size: 1.5vh !important;
+  }
+
+  .headlogo {
+    height: 3vh;
+    width: auto;
+    background-size: cover;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-weight: 600;
+  }
+  .flex-container {
+    line-height: 4vh;
+    margin-top: 22.5vh;
+    margin-right: 20.5vw;
+    margin-bottom: 1.5vh;
+    margin-left: 33vw;
+    padding: 5vh 3vw;
+    height: 32vh;
+    width: 28vw;
+    box-shadow: 0px 0px 3px 1px #c3c3c3;
+  }
+  .h:hover {
+    text-decoration: underline;
+    color: #464646;
+  }
+  .question {
+    padding-top: 2vh;
+    height: 1.5vh;
+    width: 1vw;
+    align-self: center;
+  }
+  input {
+    line-height: 2.5 !important;
+    outline: none;
+    width: 100%;
+    padding: 5px 0px 4px 0px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #464646;
+  }
+  input:hover {
+    border-bottom: 1.5px solid black;
+  }
+  a {
+    text-decoration: none;
+    color: #0067b8;
+  }
+  div,
+  a,
+  input,
+  li,
+  ul,
+  b,
+  img {
+    background-color: white !important;
+  }
+  button {
+    border-radius: 1px;
+    background-color: #0067b8;
+    border: none;
+    color: white;
+    margin-bottom: 1vh;
+    padding: 0.1vh 3vw;
+    text-align: center;
+    font-size: 16px;
+  }
+  .key {
+    width: 1vw;
+    height: 2vh;
+  }
+  hr {
+    background-color: rgb(0, 115, 254);
+  }
+  #sec {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px !important;
+  }
+  .btn:hover {
+    background-color: rgb(0, 72, 207);
+    cursor: pointer;
+    opacity: 1.2;
+  }
+  .footer {
+    font-size: 12px !important;
+    padding-right: 1vw;
+    position: absolute;
+    align-items: center;
+    bottom: 1vh;
+    float: right;
+    right: 1vh;
+  }
+  .flex-container1 {
+    display: flex;
+    width: 28vw;
+    height: auto;
+    list-style: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 4vw;
+    padding-right: 20px;
+    box-shadow: 0px 0px 5px 1px #c3c3c3;
+    margin-right: 22.5vw;
+    margin-left: 33vw;
+  }
+  .u:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #sec:hover {
+    opacity: 0.7;
+  }
+
+  .key {
+    height: 6vh;
+    width: 3vw;
+    padding-top: 4px;
+  }
+  .btn {
+margin-top:2vh;;
+    line-height: 2;
+    position: relative;
+    float: right;
+    right: 0%;
+  }
+  .heading {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .question:hover,
+  .h:hover {
+    cursor: pointer;
+  }
+  #sec:hover {
+    cursor: pointer;
+  }
+}
+@media screen and (width:800px){
+  .flex-container1{
+    padding-right: 7.5vw;
+  }
+}
+@media screen and (width:820px){
+  .flex-container1{
+    padding-right: 6vw;
+  }
+}
+@media screen and (width:768px){
+  .flex-container1{
+    padding-right: 5.2vw;
+  }
+}
+@media screen and (width:912px){
+  .flex-container1{
+    padding-right: 7vw;
+  }
+}
+@media screen and (width:912px){
+  .flex-container1{
+    padding-right: 6.5vw;
+  }
+}
+@media screen and (width:1280px){
+  .flex-container1{
+    padding-right: 2vw;
+  }
+}
+@media screen and (width:390){
+  .flex-container{
+    padding-left: 0vw !important;
+    margin: 0 !important;
+  }
+}
